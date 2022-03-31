@@ -1,10 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    padding: 20px;
 }
 
-body {
-    background-image: url(/src/img/background.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+header img{
+    max-width: 500px;
 }
+
+header nav{
+    display: flex;
+    gap: 50px;
+}
+
+

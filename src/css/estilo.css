@@ -23,7 +23,9 @@ a{
 
 .info {
     max-width: 388px;
+    text-align: center;
 }
+
 .primeiro {
     border-top: 1px solid #000000;
     max-width: 100%;
@@ -31,6 +33,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
 }
+
 .primeiro img{
     max-width: 378px;
     padding-top: 50px;

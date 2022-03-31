@@ -18,9 +18,19 @@ header nav{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
+<<<<<<< HEAD
 .info {
     max-width: 388px;
 }
+=======
+.primeiro {
+    border-top: 1px solid #000000;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+>>>>>>> a8683701c00df3b663b943a9057b7a973c9e37ab

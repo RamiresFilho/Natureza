@@ -30,7 +30,6 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: row;
 }
 .primeiro img{
     max-width: 378px;

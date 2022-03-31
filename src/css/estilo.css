@@ -16,4 +16,6 @@ header nav{
     gap: 50px;
 }
 
-
+a{
+    text-decoration: none;
+}

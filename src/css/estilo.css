@@ -31,3 +31,6 @@ a{
     align-items: center;
     justify-content: space-around;
 }
+.primeiro img{
+    max-width: 378px;
+}

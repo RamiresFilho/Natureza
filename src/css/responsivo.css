@@ -1,5 +1,13 @@
-@media (max-width: 1440px){
+@media (max-width: 1920px){
    footer h4{
     font-size: 20px;
    } 
+
+   .info2 ul li{
+       font-size: 15px;
+   }
+   
+   header{
+       font-size: 100%;
+   }
 }

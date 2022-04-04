@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
 header{
     display: flex;
@@ -37,4 +38,38 @@ a{
 .primeiro img{
     max-width: 378px;
     padding-top: 50px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #A5D79F;
+    border-radius: 10px;
+    font-family: 'Short Stack';
+    font-size: 20px;
+}
+#titulo{
+    text-align: center;
+    border-top: 0.4px solid #000000;
+    padding-top: 45px;
+    font-size: 25px;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5vh;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 35px;
+}
+.info2 ul li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 15px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

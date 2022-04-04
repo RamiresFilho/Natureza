@@ -70,13 +70,17 @@ button{
 footer{
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: space-around; 
 }
 footer h4{
     font-size: 23px;
-    padding-bottom: 20px;
-    
+    padding: 15px;
 }
-footer img{
-    width: 60px;
+.link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link img{
+    width: 65px;
 }

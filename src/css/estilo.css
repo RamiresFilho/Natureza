@@ -46,6 +46,14 @@ button{
     border-radius: 10px;
     font-family: 'Short Stack';
     font-size: 20px;
+    
+}
+#efeito :hover{
+    transition-duration: 1s;
+    background-color: #DBEDD9;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #titulo{
     text-align: center;
@@ -83,4 +91,14 @@ footer h4{
 
 .link img{
     width: 65px;
+    border-radius: 100%;
 }
+.link img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+   }
+.link img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
